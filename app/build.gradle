@@ -6,7 +6,8 @@ android {
     defaultConfig {
         applicationId "com.hjm.notificationchanneltester"
         minSdkVersion 19
-        targetSdkVersion 26
+        // Notification Channel を設定しない場合は targetSdkVersion を 25 以下にしないと動かない
+        targetSdkVersion 25
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
