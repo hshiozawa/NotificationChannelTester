@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-            NotificationChannelManager.create(getApplicationContext());
+            NotificationChannelManager.create(getApplicationContext(), NotificationChannelManager.DEFAULT);
         }
 
         final String notificationTitle = getResources().getText(R.string.app_name).toString();
