@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">NotificationChannelTester</string>
+    <string name="channel_1">チャンネル１</string>
+    <string name="channel_1_description">これはチャンネル１です。</string>
+    <string name="channel_2">チャンネル２</string>
+    <string name="channel_2_description">これはチャンネル２です。</string>
+    <string name="channel_3">チャンネル３</string>
+    <string name="channel_3_description">これはチャンネル３です。</string>
+</resources>
